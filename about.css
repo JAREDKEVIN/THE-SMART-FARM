@@ -37,6 +37,7 @@ ul li{
     padding: 10px 10px;
     font-style: italic;
     color: lightgreen;
+    font-weight: bolder;
 }
 .top_image{
     height: 200px;
@@ -154,4 +155,33 @@ ul li{
 }
 h2{
     padding: 10px;
+}
+/* The team */
+.team{
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+.team ul li{
+    display: inline-block;
+    margin: 0 2%;
+    padding:10px 10px 20px;
+
+}
+.team h3{
+    text-align: center;
+    padding: 20px;
+}
+.team p{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+#submit{
+    height: 60px;
+    width: 90px;
+    background-color: #088E56;
+    color: white;
+    margin-left: 80px;
 }
