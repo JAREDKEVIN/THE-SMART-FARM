@@ -1,8 +1,8 @@
 /* General page styling*/
-
+/* 
 *{
     background-color: #083111;
-}
+} */
 
 nav
 {
@@ -49,15 +49,15 @@ nav
     margin-left: 50px;
     margin-top: 50px;
 }
-h1{
-    position:absolute;
-     text-align: center;
-}
-}
 
-#smart
-{ 
-     text-align: center;
-}
 
+/* The smart farm */
+
+.scroll{
+    color: #083111;
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    font-size: 20px;
+}
    
