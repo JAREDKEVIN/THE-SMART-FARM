@@ -3,3 +3,61 @@
 *{
     background-color: #083111;
 }
+
+nav
+{
+    
+   display: flex;
+   margin:0px;
+   padding: 0px;
+    justify-content: space-between;
+
+
+}
+
+.dial
+{
+    float:left;
+}
+
+.facebook
+{
+    float:right;
+   
+}
+
+.links{
+    margin-top: auto;
+    background: white;
+    padding: 20px;
+
+   
+}
+.links a
+{
+    background: #ffff;
+    text-decoration: none;
+    margin-right: 80px;
+
+    
+}
+
+#logo
+{
+    position: absolute;
+    opacity: 0.8;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1{
+    position:absolute;
+     text-align: center;
+}
+}
+
+#smart
+{ 
+     text-align: center;
+}
+
+   
