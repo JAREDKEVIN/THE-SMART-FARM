@@ -12,20 +12,33 @@ html{
 }
 .navigation{
     background-color: #088E56;
+    display: flex;
+    margin-left: 6.5vw;
+
 }
 
 .company{
-    background-color: black;
+    background-color: grey;
+    text-align: center;
 
+}
+.company h1{
+    color: black;
+}
+.company a{
+    position: relative;
+    bottom: 1.5vh;
+    text-decoration: none;
 }
 
 .midPage{
     display: flex;
+    margin: 4.5vh 0 4.5vh 0;
 }
 .form{
     /* background-color: #088E56; */
     flex-grow: 1.5;
-    height: 50vh;
+    height: 65vh;
     background-color: white;
     padding-left: 2.5vw;
 }
@@ -56,19 +69,23 @@ textarea{
 }
 .map iframe{
     flex-grow: 1;
-    height: 50vh;
+    height: 65vh;
     
 }
 
 .regions{
     display: flex;
-    justify-content: center;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
     background-color: white;
+    justify-content: center;
+    
 }
 
 
 .regions img{
     border-radius: 50%;
+    width: 50%;
 }
 
 
