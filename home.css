@@ -38,5 +38,26 @@ nav
     background: #ffff;
     text-decoration: none;
     margin-right: 80px;
+
     
 }
+
+#logo
+{
+    position: absolute;
+    opacity: 0.8;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1{
+    position:absolute;
+     text-align: center;
+}
+}
+
+#smart
+{ 
+     text-align: center;
+}
+
+   
