@@ -8,6 +8,10 @@ nav{
     background-color: #2B2D2F;
     width: 100%;
     
+    
+}
+header{
+    position: sticky;
 }
 img{
     height: 70px;
@@ -42,14 +46,14 @@ ul li{
     height: 200px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+    object-fit: cover;
 }
 .links{
     height: 40px;
     width: 80%;
     border: 1px solid black;
     background-color: #088E56;
-    position: fixed;
+    position: absolute;
     top: 150px;
     left: 120px;
 }
@@ -75,4 +79,38 @@ ul li{
 }
 .home_nav ul li a{
     text-decoration: none;
+}
+.about_page{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+
+}
+.mission_statement{
+    height: 300px;
+    width: 500px;
+    border: 1px solid green;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.mission_vision{
+    height: 300px;
+    width: 500px;
+    border: 1px solid green;
+    text-align: center;
+    padding: 20px;
+}
+
+/* The body gif */
+.gif{
+    width: 100%;
+    height: 400px;
+    padding: 10px 10px 10px;
+}
+.gif img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
