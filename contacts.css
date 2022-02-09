@@ -23,13 +23,41 @@ html{
     display: flex;
 }
 .form{
-    background-color: #088E56;
+    /* background-color: #088E56; */
     flex-grow: 1.5;
+    height: 50vh;
+    background-color: white;
+    padding-left: 2.5vw;
 }
-.map{
-    flex-grow: 1;
-    
+.form input[type="text"], input[type="email"], textarea{
 
+    width: 50vw;
+    font-size: large;
+    background-color: whitesmoke;
+}
+.form input[type="text"], input[type="email"]{
+    height: 4.5vh;
+    
+}
+.form input[type="submit"]{
+    background-color: #083111;
+    color: white;
+    width: 8.5vw;
+    height: 4.5vh;
+    
+}
+.form input[type="submit"]:hover{
+    background-color: #088E56;
+   
+
+}
+textarea{
+    resize: none;
+}
+.map iframe{
+    flex-grow: 1;
+    height: 50vh;
+    
 }
 
 .regions{
@@ -41,4 +69,16 @@ html{
 
 .regions img{
     border-radius: 50%;
+}
+
+
+.personalContact{
+    background-color: white;
+}
+
+.footer{
+    background-color: #083111;
+}
+footer{
+    background-color: #083111;
 }
