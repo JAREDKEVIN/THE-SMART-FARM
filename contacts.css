@@ -1,0 +1,84 @@
+.iconz{
+    background-color: #000000;
+
+}
+html{
+    background-color: #c4c4c4;
+
+}
+
+.navigation ul li,img{
+    display: inline;
+}
+.navigation{
+    background-color: #088E56;
+}
+
+.company{
+    background-color: black;
+
+}
+
+.midPage{
+    display: flex;
+}
+.form{
+    /* background-color: #088E56; */
+    flex-grow: 1.5;
+    height: 50vh;
+    background-color: white;
+    padding-left: 2.5vw;
+}
+.form input[type="text"], input[type="email"], textarea{
+
+    width: 50vw;
+    font-size: large;
+    background-color: whitesmoke;
+}
+.form input[type="text"], input[type="email"]{
+    height: 4.5vh;
+    
+}
+.form input[type="submit"]{
+    background-color: #083111;
+    color: white;
+    width: 8.5vw;
+    height: 4.5vh;
+    
+}
+.form input[type="submit"]:hover{
+    background-color: #088E56;
+   
+
+}
+textarea{
+    resize: none;
+}
+.map iframe{
+    flex-grow: 1;
+    height: 50vh;
+    
+}
+
+.regions{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.regions img{
+    border-radius: 50%;
+}
+
+
+.personalContact{
+    background-color: white;
+}
+
+.footer{
+    background-color: #083111;
+}
+footer{
+    background-color: #083111;
+}
