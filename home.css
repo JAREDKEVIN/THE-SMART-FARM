@@ -1,8 +1,8 @@
 /* General page styling*/
-/* 
+
 *{
-    background-color: #083111;
-} */
+    background-color: #deeee1;
+} 
 
 nav
 {
@@ -79,7 +79,7 @@ nav
     box-sizing:border-box;
     border-color:black;
     justify-content: center;
-    background-color: #083111;
+   
     
 }
 
@@ -100,15 +100,15 @@ padding-bottom: 5px;
 .visit
 {
     color:black;
-    text-align:left;
+    margin-left: 30px;
     padding-left: 300px;
-    text-justify: distribute;
+    
 }
 
-.people
-{
+
+.people{
     float:right;
-    justify-items: flex-end;
+    margin-top: -250px;
     height: 100px;
     width: auto;
 
