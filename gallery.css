@@ -1,0 +1,21 @@
+*{
+ box-sizing: border-box;
+ padding: 0px;
+ margin: 0px;
+}
+.icons{
+display: flex;
+float: right;
+height: 25px;
+}
+.navbar{
+    display: flex;
+    background-color: green;
+    color: white;
+    height: 25px;
+
+}
+.navbar ul li{
+    display: inline-flex;
+    margin: 10px;
+}
