@@ -18,11 +18,15 @@ nav
 .dial
 {
     float:left;
+    padding:0px;
+    margin: 0px;
 }
 
 .facebook
 {
     float:right;
+     padding:0px;
+    margin: 0px;
    
 }
 
@@ -50,6 +54,11 @@ nav
     margin-top: 50px;
 }
 
+#agric
+{
+    padding-top: 0px;
+}
+
 
 /* The smart farm */
 
@@ -61,3 +70,46 @@ nav
     font-size: 20px;
 }
    
+.text
+{
+    color:rgb(177, 177, 27);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+    font-weight: 100px;
+    box-sizing:border-box;
+    border-color:black;
+    justify-content: center;
+    background-color: #083111;
+    
+}
+
+h2
+{
+    text-align: center;
+    text-shadow: #083111;
+}
+
+.front
+{
+height:100px;
+width: auto;
+position: absolute;
+padding-bottom: 5px;
+}
+
+.visit
+{
+    color:black;
+    text-align:left;
+    padding-left: 300px;
+    text-justify: distribute;
+}
+
+.people
+{
+    float:right;
+    justify-items: flex-end;
+    height: 100px;
+    width: auto;
+
+}
