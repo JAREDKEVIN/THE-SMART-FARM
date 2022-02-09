@@ -158,9 +158,9 @@ h2{
 }
 /* The team */
 .team{
-    height: 200px;
+    height: 250px;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #26AB73;
     
 }
 .team ul li{
@@ -176,12 +176,17 @@ h2{
 .team p{
     text-align: center;
     padding: 20px;
-    font-size: 60px;
+    font-size: 40px;
 }
 #submit{
-    height: 60px;
-    width: 90px;
+    height: 50px;
+    width: 100px;
     background-color: #088E56;
     color: white;
     margin-left: 80px;
+    border-radius: 20px 20px 0px 20px;
+}
+.contacts{
+    height: 300px;
+    background-color: #083111;
 }
