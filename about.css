@@ -5,7 +5,7 @@
 }
 nav{
     height: 50px;
-    background-color: #2B2D2F;
+    background-color: green;
     width: 100%;
     
     
@@ -29,7 +29,7 @@ ul li{
     background-image: linear-gradient(to right, white, lightgreen);
 }
 .head img{
-    padding: 10px;
+    /* padding: 10px; */
     position: absolute;
     left: 30px;
 }
@@ -49,6 +49,9 @@ ul li{
     background-repeat: no-repeat;
     object-fit: cover;
 }
+.linkscomm ul li{
+    
+}
 .links{
     
     position: absolute;
@@ -57,6 +60,22 @@ ul li{
     top: 0;
     
 }
+nav .linkssocials{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    top: -30px;
+    
+    
+}
+nav .linkssocials ul li{
+    text-decoration: none;
+}
+.linkssocials img{
+    height: 100px;
+    width: 70px;
+}
+
 .links a{
     color: black;
     text-decoration: none;
