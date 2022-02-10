@@ -2,9 +2,9 @@
     background-color: #000000;
 
 }
- */
+ /* */
 
-.navigation ul li,img{
+/* .navigation ul li,img{
     display: inline;
     margin-right: 2.85vw;
 }
@@ -14,8 +14,20 @@
     margin: 0;
     /* margin-right: 6.5vw; */
 
+/* } */ */
+
+
+
+.fas{
+    color: white !important;
+}
+.fab{
+    color: white;
 }
 
+/* nav{
+    background-color: green;
+} */
 
 .company{
     background-image: url("./Images/pavan-trikutam-71CjSSB83Wo-unsplash\ \(1\).jpg");
