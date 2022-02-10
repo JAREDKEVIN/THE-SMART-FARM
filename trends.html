@@ -108,28 +108,13 @@ rel="stylesheet"
          Key Agritech Trends To Expect In 2022
         </h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis est
-          voluptatibus officia sequi, aliquid voluptatum tempora quam nam libero
-          natus ullam odio ad recusandae nihil expedita iusto vel esse ratione
-          ducimus fuga molestias dolorum assumenda placeat. Praesentium soluta
-          maxime magni similique nisi minima sunt, quas iure doloribus quibusdam
-          temporibus nemo.
+         The fourth industrial revolution is transforming the world around us, and farmers across the globe are knee-deep in it too. Despite the hurdles pften keeping Kenya's farming sector back, it is steadily pushingagricultural technology forward and growing the local agritech industry.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis est
-          voluptatibus officia sequi, aliquid voluptatum tempora quam nam libero
-          natus ullam odio ad recusandae nihil expedita iusto vel esse ratione
-          ducimus fuga molestias dolorum assumenda placeat. Praesentium soluta
-          maxime magni similique nisi minima sunt, quas iure doloribus quibusdam
-          temporibus nemo.
+         Investors' interest in agritech startups has increased tremendously today as agritech is one of the few sectors that not only survived but thrived during the pandemic. The emergence of the new agri-trading platforms, more efficient market linkages, as well as the use of big IoT in driving farm input gas and will help the entire agricultural sector.Startups and scaleups work on technological solutions to benefit farmers by automating farm operations and improving productivity.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis est
-          voluptatibus officia sequi, aliquid voluptatum tempora quam nam libero
-          natus ullam odio ad recusandae nihil expedita iusto vel esse ratione
-          ducimus fuga molestias dolorum assumenda placeat. Praesentium soluta
-          maxime magni similique nisi minima sunt, quas iure doloribus quibusdam
-          temporibus nemo.
+          The most prevalent trend is the nternet of Things(IoT), which enables farmers to better monitor the needs of crops and individual animals. Automation in irrigation, farm machinery, and harvesting further ease farm operations, while minimizing losses. Additionally, drones save time spent on crop scouting. Further, advancements in Al and machine learning (ML) boost prediction accuracy and provide insights on weather events, crop classification, and disease of plants and animals. Precision agriculture is another major trend observed across the industry. It refers to using the right quantity of inputs, at the right time, and at the right loaction. Finally, startupsalso address concerns over a sustainable future, ang thus, advance new growing techniques like hydroponics and acquaponics.
         </p>
         
         <center>
@@ -158,10 +143,12 @@ rel="stylesheet"
             />
           </div>
           <div class="sustainable-farming">
+            <h3>Sustainable Development and Biodiversity</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo placeat sed doloribus assumenda error quam facere maxime
-              magni temporibus quasi?
+              Growing food safely, without harmingthe environment, has never been more demanding for farmers.Since the end of the 20th century, scientists have become vigorously involved in this problem and came up with a paradigm for sustainable development.
+              <span id="toggle">For Agriculture, it is a way of growing crops and raising livestosk with the most effcient useof natural resources, while ensuring their environmental friendliness and renewability. ML-powered solutions can help farmers achieve these goals. For example, data-driven precision farming tools can detect nutrient deficiencies in a field and inform agronomists. This allows farmers to treat only the affected areas, reduce fertilization costs, and minimize the volume of excess chemicals in the soil.
+                <br>For biodiversity, data-driven solutions can also advise agronomists what crops to plant in a particular season to minimize soil depletion and ensure sustainable use.
+              </span> <a class="hov" id="btn" onclick="toggle();">Read More</a>
             </p>
           </div>
           </div>
@@ -174,12 +161,14 @@ rel="stylesheet"
             />
           </div>  
           <div class="sustainable-farming">
+            <h3>IoT Devices</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo placeat sed doloribus assumenda error quam facere maxime
-              magni temporibus quasi?
+              The IoT agriculture market is expected to grow to $20.9 billion by 2024. The amount of data that is collected in the fields and from agricultural machinery is already too large for manual processing. That's why more and more farmers are turning to artificial intelligence solutions.In the next few years, the role of edge computing will increase.
+              <span id="toggle2">The emergence of such powerful single-board computers such as Nvidia Jetson, Raspberry Pi and even smaller and cheaper devices on the market will allow data analysis directly in the fiels without the need to transfer large amounts of date to servers, sending only the processed results.
+                <br>Analytics tools will evolve and become more understandable and friendly for end-users. Sensor manufacturers are moving towards building hardware and software ecosystems to provide customers with an all-inclusive IoT experience, including data analysis with artificial intelligence and machine learning.
+              </span> <a class="hov" id="btn2" onclick="toggle2();">Read More</a>
             </p>
-            <a href="">Read More</a>
+            
           </div>          
           </div>
         </div>
@@ -267,13 +256,24 @@ rel="stylesheet"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
 ></script>
     <script>
-      const myStyle = document.getElementById('hide')
-      const mybutton = document.getElementById('readmore')
-      function readmore(){
-        myStyle.style.display = "unset";
-        mybutton.style.display = "none";
 
+      function toggle() {
+      var x = document.getElementById("toggle");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
       }
+    }
+
+    function toggle2() {
+      var x = document.getElementById("toggle2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
     </script>
   </body>
 </html>
