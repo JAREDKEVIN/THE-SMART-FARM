@@ -86,7 +86,7 @@ ul li{
     z-index: 5;
     top: 0; */
     
-}
+
 /* nav .linkssocials{
     position: absolute;
     display: flex;
@@ -94,7 +94,7 @@ ul li{
     top: -30px;
      */
     
-}
+
 nav .linkssocials ul li{
     text-decoration: none;
 }
