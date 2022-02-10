@@ -4,14 +4,15 @@
     font-family: sans-serif;
 }
 nav{
-    height: 50px;
-    background-color: #2B2D2F;
+    height: 70px;
+    background-color: green;
     width: 100%;
     
-    
 }
-header{
-    position: sticky;
+nav .linkssocials img{
+    height: 70px;
+    width: 70px;
+    
 }
 img{
     height: 70px;
@@ -28,10 +29,9 @@ ul li{
     width: 100%;
     background-image: linear-gradient(to right, white, lightgreen);
 }
-.head img{
-    padding: 10px;
-    position: absolute;
-    left: 30px;
+.logo{
+    margin-top: -65px;
+    margin-left: 30px;
 }
 .head h1{
     padding: 10px 10px;
@@ -46,24 +46,70 @@ ul li{
 .top_image img{
     height: 200px;
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-reeat;
     object-fit: cover;
 }
-.links{
+.linkssocials .new {
+    display: flex;
+    justify-content: center;
+    
+    
+   
+        
+}
+.linkssocials .new {
+    margin-left: -60px;
+}
+.linkssocials .new  li {
+    text-decoration: none;
+    margin: 0 2%;
+    margin-top: 20px;
+    
+}
+.linkssocials .new  li a{
+    text-decoration: none;
+}
+.linkssocials .new  li a:hover{
+    color: white;
+}
+.linkssocials .new1{
+    margin-left: 900px;
+    margin-top: -50px;
+    
+}
+
+/* .links{
     
     position: absolute;
     display: flex;
     justify-content: center;
-    top: 0;
+    z-index: 5;
+    top: 0; */
     
 }
+/* nav .linkssocials{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    top: -30px;
+     */
+    
+}
+nav .linkssocials ul li{
+    text-decoration: none;
+}
+.linkssocials img{
+    height: 100px;
+    width: 70px;
+}
+
 .links a{
     color: black;
     text-decoration: none;
     padding: 20px 20px;
 
 }
-.links a:hover{
+a:hover{
     color: white;
 }
 .home_nav{
@@ -118,6 +164,16 @@ ul li{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.gif p{
+    color: white;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: 2px 2px 8px;
 }
 .section{
     height: 300px;
@@ -178,6 +234,7 @@ h2{
     text-align: center;
     padding: 20px;
     font-size: 40px;
+    font-family: open sans regular;
 }
 #submit{
     height: 50px;
@@ -187,10 +244,7 @@ h2{
     margin-left: 80px;
     border-radius: 20px 20px 0px 20px;
 }
-.contacts{
-    height: 300px;
-    background-color: #083111;
-}
+
 .footer{
     height: 20px;
     width: 100%;
