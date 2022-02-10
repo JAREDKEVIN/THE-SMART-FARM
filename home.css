@@ -101,13 +101,16 @@ padding-bottom: 5px;
     color:black;
     margin-left: 30px;
     padding-left: 300px;
+    font-size: medium;
+    margin-top:20px;
+    position: relative;
     
 }
 
 
 .people{
     float:right;
-    margin-top: -250px;
+    margin-top:0px;
     height: 100px;
     width: auto;
     border-color: aqua;
@@ -118,5 +121,11 @@ padding-bottom: 5px;
 {
 
 
+}
+
+.adress
+{
+    text-align: center;
+    font-size: small;
 }
 
