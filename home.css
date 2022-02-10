@@ -4,7 +4,7 @@
     background-color: #ffffff;
 } 
 
-nav
+/* nav
 {
     
    display: flex;
@@ -12,8 +12,11 @@ nav
    padding: 0px;
    justify-content:space-between;
 
-}
+} */
 
+nav{
+    background-color: green;
+}
 .dial
 {
     float:left;
@@ -68,7 +71,7 @@ nav
     position: absolute;
     top: 90px;
     left: 700px;
-    font-size: 20px;
+    font-size: 50px;
 }
    
 .text
@@ -135,9 +138,17 @@ footer
    
     
 }
+.fas{
+    color:#083111;
+}
+.fab{
+    color:#083111;
+}
 
 .maps
 {
+
+
 }
 
 .card
@@ -152,8 +163,14 @@ h2
     text-align: center;
     height: fit-content;
     font-size: larger;
+    color:#083111;
 }
 
+.marketplace
+{
+    bottom: 50px;
+    justify-content: baseline;
+}
 
 
 
