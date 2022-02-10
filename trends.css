@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: green;
+}
+.fas{
+    color: white;
+}
+.fab{
+    color: white;
+}
+.nav-bar {
+  display: flex;
+  margin: 0 100px;
+  padding-top: 30px;
+}
+.nav-list {
+  /* display: inline; */
+  background-color: green;
+  margin-left: auto;
+  /* margin: 0; */
+  padding: 7px;
+}
+.nav-list li {
+  display: inline;
+}
+ul li a {
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/green-tractor.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  color: #fff;
+  /* padding: 60px 0px 0 150px; */
+  margin: 180px 0 0 200px;
+  font-size: 40px;
+}
+.intro {
+  height: auto;
+  background-color: rgb(189, 184, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text {
+  width: 70%;
+  height: auto;
+  box-shadow: 0 0 4px black;
+  margin-top: -7%;
+  /* padding-left: 100px; */
+  /* padding-right: 100px;   */
+
+  background-color: #fff;
+  border: none;
+}
+
+.intro-text2 {
+  width: 70%;
+  height: auto;
+  box-shadow: 0 0 4px black;
+  background-color: #fff;
+  border: none;
+}
+
+.intro-text h3 {
+  padding: 20px 20px 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.intro-text p {
+  padding: 20px 20px 0 20px;
+  font-size: 18px;
+}
+.greenhouse {
+  width: 90%;
+  height: 350px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%;
+  height: 20vh;
+  padding: 5%; */
+}
+.details {
+  background-color: rgb(189, 184, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px 0;
+}
+.image1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  /* align-items: center; */
+}
+
+.trends {
+  align-items: center;
+  /* flex-wrap: wrap; */
+  background-color: #fff;
+}
+.about-us {
+  display: flex;
+}
+.info{
+   background-color: rgb(189, 184, 184);
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+
+}
+.sustainable-farming, p{
+  padding: 20px 20px 0 20px;
+  font-size: 18px;
+
+}
+.trends{
+   width: 50vw;
+  box-shadow: 0 0 1px black;
+  /* padding-left: 100px; */
+  /* padding-right: 100px;   */
+  background-color: #fff;
+  border: none;
+  
+}
+.hydroponics{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /* max-width: 100%; */
+  height: auto;
+  padding: 5%;
+}
+/* .about{
+  
+  align-items: center;
+  display: flex;
+
+
+} */
+.footer{
+  background-color: green;
+  
+}
+.footer h3{
+  text-align: center;
+  color: black;
+}
+.sign-up{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(2, 58, 2);
+}
+.services{
+  color: black;
+  text-align: left;
+}
+#hide{
+  display: none;
+}
