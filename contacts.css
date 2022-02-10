@@ -25,10 +25,12 @@
     color: white;
 }
 
-/* nav{
+nav{
     background-color: green;
-} */
-
+}
+.place{
+    text-align: center;
+}
 .company{
     background-image: url("./Images/pavan-trikutam-71CjSSB83Wo-unsplash\ \(1\).jpg");
     background-size: cover;
@@ -143,7 +145,7 @@ textarea{
 .personalContact{
     background-color: white;
     height: 25vh;
-    margin-top: 2vh;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
 }
