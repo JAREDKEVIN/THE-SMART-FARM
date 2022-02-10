@@ -1,0 +1,311 @@
+
+.look {
+    background-image: url("./Images/agric4.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: rgb(37, 151, 22);
+    }
+    .body {
+    background-color: #20aa20da;
+    font-family: sans-serif;
+    }
+    .fas{
+        color: white;
+    }
+    .fab{
+        color: white;
+    }
+    nav{
+        background-color: transparent;
+    }
+    
+    .bg-red{
+        background-color: red;
+        color: white;
+    }
+    .header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 20px;
+    padding-top: 30px;
+    }
+    button {
+    background-color: #23f056;
+    height: 37px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border-radius: 3px;
+    }
+    .first {
+    padding-top: 150px;
+    text-align: center;
+    }
+    .heading1 {
+    font-size: 40px;
+    font-weight: bold;
+    }
+    .text {
+    font-size: 18px;
+    }
+    .navbar {
+    padding-top: 32px;
+    color: white;
+    }
+    .navbox a {
+    justify-content: space-between;
+    }
+    .name {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding-top: 10px;
+    }
+    .login {
+    padding-top: 15px;
+    }
+    a {
+    color: white;
+    text-decoration: none;
+    }
+    .signup {
+    margin-right: 200px;
+    margin-top: 23px;
+    }
+    .buttons {
+    padding-top: 30px;
+    }
+    .learn {
+    margin-left: 20px;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .quote {
+    background-color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .service {
+    border: 1px solid white;
+    background-color: white;
+    width: 250px;
+    height: 180px;
+    padding-left: 20px;
+    }
+    .service3 {
+    width: 250px;
+    height: 180px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    color: rgb(24, 119, 60);
+    }
+    .services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    margin-top: -155px;
+    margin-bottom: 100px;
+    }
+    .level {
+    border: 1px solid white;
+    width: 230px;
+    height: 180px;
+    padding-left: 20px;
+    text-align: center;
+    }
+    .levels {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    }
+    .subtitle {
+    text-align: center;
+    /* width: 390px; */
+    /* padding-top: 100px; */
+    /* padding-left: 500px; */
+    /* padding-bottom: 50px; */
+    }
+    .all-pricing {
+    margin-top: 50px;
+    }
+    .user {
+    border: 1px solid rgb(48, 28, 28);
+    width: 250px;
+    height: 320px;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(31, 126, 7);
+    }
+    .person {
+    height: 140px;
+    padding-left: 44px;
+    padding-top: 30px;
+    }
+    .star {
+    padding-left: 40px;
+    } 
+    .users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    }
+    .logos {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin: 0 0 50px 50px ; */
+    padding-bottom: 50px;
+    gap: 30px;
+    padding-top: 150px;
+    
+    }
+    .logo {
+    height: 30px;
+    }
+    .news {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* background-color: linear-gradient(90deg#4568ff 50% purple 50% ); */
+    height: 60px;
+    padding-top: 10px;
+    background: linear-gradient(125deg, #124af7, #f30ee5 );
+    }
+    .post {
+    padding-top: 10px;
+    margin: 0 auto;
+    }
+    .input {
+    width: 300px;
+    height: 29px;
+    }
+    .PREFS {
+    border: 1px solid #23A6F0;
+    width: 250px;
+    height: 430px;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+    .dollar {
+    color: #23A6F0;
+    font-size: 24px;
+    font-weight: bolder;
+    }
+    .FSP {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    }
+    ul {
+    list-style: none;
+    
+    }
+    .trials {
+    text-align: center;
+    }
+    .PREFS:hover {
+    background-color: #ffffff;
+    color: white;
+    margin-top: -20px;
+    }
+    .freetrial {
+    margin-top: 35px;
+    margin-left: 55px;
+    width: 150px;
+    }
+    .worldmap {
+    height: 180px;
+    }
+    .branches {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffffff;
+    background-size: cover;
+    color: white;
+    padding-top: 40px;
+    height: 600px;
+    }
+    .family {
+    height: 600px;
+    }
+    .appointments {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    padding-left: 40px;
+    }
+    .booking {
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+    }
+    .form {
+    text-align: center;
+    }
+    .value {
+    width: 300px;
+    height: 37px;
+    }
+    .BA {
+    width: 300px;
+    margin-top: 77px;
+    }
+    .consult {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    }
+    .credits {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+    }
+    .byme {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 9px;
+    } 
+    
+    .best {
+        background-image: url("./images/farmers-market.jpg");
+        background-repeat: no-repeat;
+        height: 500px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    
+    }
+    
+    
+      
