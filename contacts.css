@@ -35,6 +35,7 @@
     display: flex;
     margin: 4.5vh 0 4.5vh 0;
     width: 100vw;
+    border-top: solid 1px #083111;
 }
 .form{
     /* background-color: #088E56; */
@@ -122,6 +123,7 @@ textarea{
     height: 25vh;
     margin-top: 2vh;
     display: flex;
+    justify-content: center;
 }
 
 .footer{

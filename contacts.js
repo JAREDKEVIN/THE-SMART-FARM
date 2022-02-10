@@ -10,7 +10,7 @@ function ValidateForm(){
     submitInfo = "true";
 
 
-    if(inputName.value == ""){
+    if(inputName.value.length<0){
         document.getElementById("nameError").innerHTML = "Please put a valid Name";
         submitInfo = "false";
         
@@ -22,13 +22,13 @@ function ValidateForm(){
             submitInfo = "false";
         
     }
-    if(inputMail.value == "true"){
+    if(inputMail.value == ""){
         document.getElementById("mailError").innerHTML = "Please add an email";
         submitInfo = "false";
 
 
     }
-    if(inputContent.length<65){
+    if(inputContent.value.length<65){
         document.getElementById("contentError").innerHTML = "Please input a Message";
         submitInfo = "false";
     }
