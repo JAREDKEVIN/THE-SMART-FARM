@@ -9,9 +9,10 @@ nav{
     width: 100%;
     
 }
-nav img{
+nav .linkssocials img{
     height: 70px;
     width: 70px;
+    
 }
 img{
     height: 70px;
@@ -28,10 +29,9 @@ ul li{
     width: 100%;
     background-image: linear-gradient(to right, white, lightgreen);
 }
-.head img{
-    /* padding: 10px; */
-    position: absolute;
-    left: 30px;
+.logo{
+    margin-top: -65px;
+    margin-left: 30px;
 }
 .head h1{
     padding: 10px 10px;
@@ -52,16 +52,29 @@ ul li{
 .linkssocials .new {
     display: flex;
     justify-content: center;
-    text-decoration: none;
+    
+    
+   
         
+}
+.linkssocials .new {
+    margin-left: -60px;
+}
+.linkssocials .new  li {
+    text-decoration: none;
+    margin: 0 2%;
+    margin-top: 20px;
+    
 }
 .linkssocials .new  li a{
     text-decoration: none;
-    margin: 0 2%;
+}
+.linkssocials .new  li a:hover{
+    color: white;
 }
 .linkssocials .new1{
     margin-left: 900px;
-    margin-top: -30px;
+    margin-top: -50px;
     
 }
 
@@ -152,6 +165,16 @@ a:hover{
     height: 100%;
     object-fit: cover;
 }
+.gif p{
+    color: white;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: 2px 2px 8px;
+}
 .section{
     height: 300px;
     width: 100%;
@@ -211,6 +234,7 @@ h2{
     text-align: center;
     padding: 20px;
     font-size: 40px;
+    font-family: open sans regular;
 }
 #submit{
     height: 50px;
