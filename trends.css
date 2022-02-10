@@ -70,7 +70,7 @@ ul li a {
 .intro-text2 {
   width: 70%;
   height: auto;
-  box-shadow: 0 0 4px black;
+  /* box-shadow: 0 0 4px black; */
   background-color: #fff;
   border: none;
 }
