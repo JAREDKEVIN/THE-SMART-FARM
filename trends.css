@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+nav{
+  background-color: green;
+}
+.fas{
+    color: white;
+}
+.fab{
+    color: white;
+}
 .nav-bar {
   display: flex;
   margin: 0 100px;
@@ -52,19 +61,102 @@ ul li a {
   /* padding-left: 100px; */
   /* padding-right: 100px;   */
 
-  background-color:#fff;
+  background-color: #fff;
   border: none;
 }
-.intro-text h3{
-    padding: 20px 20px 0 20px;
-    font-size: 20px;
-    font-weight: 600;
+.intro-text h3 {
+  padding: 20px 20px 0 20px;
+  font-size: 20px;
+  font-weight: 600;
 }
-.intro-text p{
-    padding: 20px 20px 0 20px;
-    font-size: 18px;
+.intro-text p {
+  padding: 20px 20px 0 20px;
+  font-size: 18px;
 }
-.greenhouse img{
+.greenhouse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* max-width: 100%; */
+  height: auto;
+  padding: 5%;
+}
+.details {
+  background-color: rgb(189, 184, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px 0;
+}
+.hydroponics {
   width: 50%;
- 
+  /* align-items: center; */
+}
+
+.trends {
+  align-items: center;
+  /* flex-wrap: wrap; */
+  background-color: #fff;
+}
+.about-us {
+  display: flex;
+}
+.info{
+   background-color: rgb(189, 184, 184);
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+
+}
+.sustainable-farming, p{
+  padding: 20px 20px 0 20px;
+  font-size: 18px;
+
+}
+.trends{
+   width: 50vw;
+  box-shadow: 0 0 1px black;
+  /* padding-left: 100px; */
+  /* padding-right: 100px;   */
+  background-color: #fff;
+  border: none;
+  
+}
+.hydroponics{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /* max-width: 100%; */
+  height: auto;
+  padding: 5%;
+}
+/* .about{
+  
+  align-items: center;
+  display: flex;
+
+
+} */
+.footer{
+  background-color: green;
+  
+}
+.footer h3{
+  text-align: center;
+  color: black;
+}
+.sign-up{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(2, 58, 2);
+}
+.services{
+  color: black;
+  text-align: left;
+}
+#hide{
+  display: none;
 }
