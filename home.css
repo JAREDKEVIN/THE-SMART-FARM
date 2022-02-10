@@ -2,21 +2,9 @@
 
 *{
     background-color: #ffffff;
+    overflow-x: hidden;
 } 
 
-/* nav
-{
-    
-   display: flex;
-   margin:0px;
-   padding: 0px;
-   justify-content:space-between;
-
-} */
-
-nav{
-    background-color: green;
-}
 .dial
 {
     float:left;
@@ -67,11 +55,12 @@ nav{
 /* The smart farm */
 
 .scroll{
-    color: #054312;
-    position: absolute;
-    top: 90px;
+    color:#083111;
+    text-align: center;
+    position:absolute;
+    top: 10px;
     left: 700px;
-    font-size: 50px;
+    font-size: 80px;
 }
    
 .text
@@ -138,11 +127,18 @@ footer
    
     
 }
+
+.nav{
+    background-color: green;
+}
+
 .fas{
-    color:#083111;
+    color: white;
+     background-color: green;
 }
 .fab{
-    color:#083111;
+    color:white;
+     background-color: green;
 }
 
 .maps
@@ -154,7 +150,7 @@ footer
 .card
 {
     border: 1px solid green;
-    height:400px;
+    height:auto;
     text-align: justify;
 }
 
