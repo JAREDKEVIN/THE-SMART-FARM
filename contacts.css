@@ -1,21 +1,21 @@
-.iconz{
+/* .iconz{
     background-color: #000000;
 
 }
-html{
-    background-color: #c4c4c4;
-
-}
+ */
 
 .navigation ul li,img{
     display: inline;
+    margin-right: 2.85vw;
 }
 .navigation{
     background-color: #088E56;
     display: flex;
-    margin-left: 6.5vw;
+    margin: 0;
+    /* margin-right: 6.5vw; */
 
 }
+
 
 .company{
     background-color: grey;
@@ -34,28 +34,39 @@ html{
 .midPage{
     display: flex;
     margin: 4.5vh 0 4.5vh 0;
+    width: 100vw;
 }
 .form{
     /* background-color: #088E56; */
-    flex-grow: 1.5;
-    height: 65vh;
+  
+    height: 75vh;
     background-color: white;
     padding-left: 2.5vw;
+    width: 50vw;
+    margin-right: 2.5vw;
+
+}
+form{
+    height: 70vh;
+    
+    
 }
 .form input[type="text"], input[type="email"], textarea{
 
-    width: 50vw;
+    
     font-size: large;
     background-color: whitesmoke;
 }
 .form input[type="text"], input[type="email"]{
     height: 4.5vh;
+    width: 48vw;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 .form input[type="submit"]{
     background-color: #083111;
     color: white;
-    width: 8.5vw;
+    width: 7.5vw;
     height: 4.5vh;
     
 }
@@ -66,11 +77,20 @@ html{
 }
 textarea{
     resize: none;
+    width: 48vw;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 .map iframe{
-    flex-grow: 1;
-    height: 65vh;
     
+    height: 65vh;
+    width: 50vw;
+    
+}
+
+#mailError, #nameError, #contentError{
+    color: red;
+
 }
 
 .regions{
@@ -81,16 +101,27 @@ textarea{
     justify-content: center;
     
 }
-
+.regions a{
+    display: block;
+    text-align: center;
+}
+.region1, .region2, .region3{
+    
+    margin: 2.5vh 2.5vw 5vh 2.5vw;
+}
 
 .regions img{
     border-radius: 50%;
-    width: 50%;
+    width: 145px;
+    height: 145px;
 }
 
 
 .personalContact{
     background-color: white;
+    height: 25vh;
+    margin-top: 2vh;
+    display: flex;
 }
 
 .footer{
@@ -98,4 +129,65 @@ textarea{
 }
 footer{
     background-color: #083111;
+}
+h3{
+    text-align: center;
+}
+.personalContacts>.personalContact>ul>li:first-child{
+    color: #083111;
+    font-weight: 900;
+    margin-bottom: 1.5vh;
+}
+.personalContacts>.personalContact>ul>li{
+    list-style: none;
+}
+
+@media only screen and (max-width:720px){
+
+    .midPage{
+        flex-direction: column-reverse;
+    }
+    
+    .regions{
+        flex-direction: column;
+        
+    }
+    .map iframe{
+        width: 95vw;
+        margin: 0;
+        height: 65vh;
+        
+    }
+
+.region1, .region2, .region3{
+    
+    margin: 0;
+    text-align: center;
+
+}
+.regions{
+    margin-top: 2.5vh;
+}
+
+.form input[type="submit"]{
+    width: 12.5vw;
+
+    
+}
+.form{
+    margin: 0;
+    width: 100vw;
+}
+.form input[type="text"], input[type="email"]{
+    height: 4.5vh;
+    width: 90vw;
+    
+
+    
+}
+#contentForm{
+    width: 90vw;
+    
+}
+    
 }
