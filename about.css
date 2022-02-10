@@ -8,24 +8,25 @@ nav{
     background-color: green;
     width: 100%;
     
+    
 }
-nav .linkssocials img{
+.linkssocials img{
     height: 70px;
     width: 70px;
     
 }
-img{
+
+
+/* img{
     height: 70px;
     width: 70px;
-}
-ul{
-    
-}
-ul li{
+} */
+
+/* ul li{
     display: inline;
-}
+} */
 .head{
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-image: linear-gradient(to right, white, lightgreen);
 }
@@ -38,6 +39,7 @@ ul li{
     font-style: italic;
     color: lightgreen;
     font-weight: bolder;
+    
 }
 .top_image{
     height: 200px;
@@ -86,7 +88,7 @@ ul li{
     z-index: 5;
     top: 0; */
     
-}
+
 /* nav .linkssocials{
     position: absolute;
     display: flex;
@@ -94,13 +96,21 @@ ul li{
     top: -30px;
      */
     
-}
+
 nav .linkssocials ul li{
     text-decoration: none;
 }
 .linkssocials img{
     height: 100px;
     width: 70px;
+}
+
+.fas{
+    color: white;
+}
+
+.fab{
+    color: white;
 }
 
 .links a{
@@ -113,12 +123,15 @@ a:hover{
     color: white;
 }
 .home_nav{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -11%;
+    /* position: absolute;
     top: 210px;
     display: flex;
-    left: 500px;
-    
-    
+    left: 500px;    */
 }
 .home_nav a:hover{
     color: white;
@@ -138,9 +151,9 @@ a:hover{
     width: 350px;
     border: 1px solid green;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px;
     margin: 0 3%;
-    margin-left: -10%;
+    margin-left: -10%; */
     border-radius: 20px;
     
 
@@ -150,7 +163,7 @@ a:hover{
     width: 350px;
     border: 1px solid green;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 20px;
 }
 
@@ -210,14 +223,19 @@ a:hover{
     
     text-align: center;
 }
+
+.services{
+    width: 70px;
+    height: 70px;
+}
 h2{
     padding: 10px;
 }
 /* The team */
 .team{
-    height: 250px;
+    height: auto;
     width: 100%;
-    background-color: #26AB73;
+    background-color: #2aab26;
     
 }
 .team ul li{
