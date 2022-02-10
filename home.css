@@ -113,7 +113,8 @@ padding-bottom: 5px;
     margin-top:0px;
     height: 100px;
     width: auto;
-    border-color: aqua;
+    top: 50px;
+    
 }
 
 
@@ -128,4 +129,41 @@ padding-bottom: 5px;
     text-align: center;
     font-size: small;
 }
+
+footer
+{
+   
+    
+}
+
+.maps
+{
+}
+
+.card
+{
+    border: 1px solid green;
+    height:400px;
+    text-align: justify;
+}
+
+h2
+{
+    text-align: center;
+    height: fit-content;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
