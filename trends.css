@@ -70,7 +70,7 @@ ul li a {
 .intro-text2 {
   width: 70%;
   height: auto;
-  box-shadow: 0 0 4px black;
+  /* box-shadow: 0 0 4px black; */
   background-color: #fff;
   border: none;
 }
@@ -94,6 +94,7 @@ ul li a {
   max-width: 100%;
   height: 20vh;
   padding: 5%; */
+  object-fit: cover;
 }
 .details {
   background-color: rgb(189, 184, 184);
@@ -175,3 +176,38 @@ ul li a {
 #hide{
   display: none;
 }
+
+#toggle{
+  display: none;
+}
+#toggle2{
+  display: none;
+}
+
+.hov{
+  cursor: pointer;
+  color: black;
+  font-weight: bold
+}
+
+.hov:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
