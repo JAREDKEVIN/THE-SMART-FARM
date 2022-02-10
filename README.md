@@ -45,6 +45,9 @@ Kipkemoi Rono
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
+* JavaScript
+
+
 ## Reference
 * Materialize CSS
 
