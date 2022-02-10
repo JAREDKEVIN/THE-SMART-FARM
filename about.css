@@ -263,13 +263,13 @@ h2{
     border-radius: 20px 20px 0px 20px;
 }
 
-.footer{
+/* .footer{
     height: 20px;
     width: 100%;
     display: flex;
     padding: 10px 10px;
 
-}
+} */
 .footer h5{
     position: absolute;
     left: 1100px;
