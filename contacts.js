@@ -29,7 +29,7 @@ function ValidateForm(){
 
     }
     if(inputContent.value.length<65){
-        document.getElementById("contentError").innerHTML = "Please input a Message";
+        document.getElementById("contentError").innerHTML = "Please input a Message atleast 65 characters long";
         submitInfo = "false";
     }
 
