@@ -1,0 +1,225 @@
+/* .iconz{
+    background-color: #000000;
+
+}
+ /* */
+
+/* .navigation ul li,img{
+    display: inline;
+    margin-right: 2.85vw;
+}
+.navigation{
+    background-color: #088E56;
+    display: flex;
+    margin: 0;
+    /* margin-right: 6.5vw; */
+
+/* } */ */
+
+
+
+.fas{
+    color: white !important;
+}
+.fab{
+    color: white;
+}
+
+nav{
+    background-color: green;
+}
+.place{
+    text-align: center;
+}
+.company{
+    background-image: url("./Images/pavan-trikutam-71CjSSB83Wo-unsplash\ \(1\).jpg");
+    background-size: cover;
+    height: 17.5vh;
+    background-position: center;
+    background-repeat: none;
+    background-color: grey;
+    text-align: center;
+
+}
+.company h1{
+    color: white;
+}
+.company a{
+    position: relative;
+    bottom: 1.5vh;
+    text-decoration: none;
+}
+
+.midPage{
+    display: flex;
+    margin: 4.5vh 0 4.5vh 0;
+    width: 100vw;
+    border-top: solid 1px #083111;
+}
+.form{
+    /* background-color: #088E56; */
+  
+    height: 75vh;
+    background-color: white;
+    padding-left: 2.5vw;
+    width: 50vw;
+    margin-right: 2.5vw;
+
+}
+form{
+    height: 70vh;
+    
+    
+}
+.form input[type="text"], input[type="email"], textarea{
+
+    
+    font-size: large;
+    background-color: whitesmoke;
+}
+.form input[type="text"], input[type="email"]{
+    height: 4.5vh;
+    width: 48vw;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.form input[type="submit"]{
+    background-color: #083111;
+    color: white;
+    width: 7.5vw;
+    height: 4.5vh;
+    
+}
+.form input[type="submit"]:hover{
+    background-color: #088E56;
+   
+
+}
+textarea{
+    resize: none;
+    width: 48vw;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.map iframe{
+    
+    height: 65vh;
+    width: 50vw;
+    
+}
+
+#mailError, #nameError, #contentError{
+    color: red;
+
+}
+
+.regions{
+    display: flex;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+    background-color: white;
+    justify-content: center;
+    
+}
+.regions a{
+    display: block;
+    text-align: center;
+}
+.region1, .region2, .region3{
+    
+    margin: 2.5vh 2.5vw 5vh 2.5vw;
+}
+.regionss h2{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.regions img{
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+}
+
+
+.personalContact{
+    background-color: white;
+    height: 25vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #083111;
+}
+
+h3{
+    text-align: center;
+}
+.personalContacts>.personalContact>ul>li:first-child{
+    color: #083111;
+    font-weight: 900;
+    margin-bottom: 1.5vh;
+}
+.personalContacts>.personalContact>ul>li{
+    list-style: none;
+}
+.footer img{
+    height: 45px;
+    
+}
+.footer{
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width:720px){
+
+
+    .midPage{
+        flex-direction: column-reverse;
+    }
+    
+    .regions{
+        flex-direction: column;
+        
+    }
+    .map iframe{
+        width: 95vw;
+        margin: 0;
+        height: 65vh;
+        
+    }
+
+.region1, .region2, .region3{
+    
+    margin: 0;
+    text-align: center;
+
+}
+.regions{
+    margin-top: 2.5vh;
+}
+
+.form input[type="submit"]{
+    width: 12.5vw;
+
+    
+}
+.form{
+    margin: 0;
+    width: 100vw;
+}
+.form input[type="text"], input[type="email"]{
+    height: 4.5vh;
+    width: 90vw;
+    
+
+    
+}
+#contentForm{
+    width: 90vw;
+    
+}
+    
+}
